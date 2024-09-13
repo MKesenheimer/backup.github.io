@@ -3,7 +3,7 @@
     <title>mkesenheimer.github.io</title>
     <link href="https://mkesenheimer.github.io/feed.xml" rel="self" />
     <link href="https://mkesenheimer.github.io" />
-    <updated>2024-09-13T14:53:31+02:00</updated>
+    <updated>2024-09-13T15:13:14+02:00</updated>
     <author>
         <name>Matthias Kesenheimer</name>
     </author>
@@ -16,10 +16,12 @@
         </author>
         <link href="https://mkesenheimer.github.io/audiometry.html"/>
         <id>https://mkesenheimer.github.io/audiometry.html</id>
+        <media:content url="https://mkesenheimer.github.io/media/posts/33/example.png" medium="image" />
 
         <updated>2020-12-29T21:34:28+01:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://mkesenheimer.github.io/media/posts/33/example.png" alt="" />
                     <p><!-- wp:paragraph --></p>
 <p>A while ago I had to take a hearing test at the doctor. The result of my left ear was unfortunately sobering, yet I found the measurement itself very interesting. To be able to continue to control my hearing ability, I wrote a program to measure the hearing threshold at different frequencies.</p>
 <p><!-- /wp:paragraph --></p>
@@ -29,12 +31,12 @@
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://mkesenheimer.github.io/media/posts/33/example.png" class="type:primaryImage" alt="" /></p>
                 <p><!-- wp:paragraph --></p>
 <p>A while ago I had to take a hearing test at the doctor. The result of my left ear was unfortunately sobering, yet I found the measurement itself very interesting. To be able to continue to control my hearing ability, I wrote a program to measure the hearing threshold at different frequencies.</p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:more --></p>
-<!-- /wp:more -->
-<p><!-- wp:paragraph --></p>
+
 <p>The way the program works is actually very simple. Tones with different frequencies are played in random order. The tones get louder and louder until the user presses a key. Meanwhile, the measuring point of the respective frequency moves downwards in the graph. Qualitatively, a louder tone corresponds to a measuring point further down in the graph. If a key is pressed by the user, the current position of the measuring point is saved. All tones, each for the left and right ear, are played until the graph is complete.</p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
